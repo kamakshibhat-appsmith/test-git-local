@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5000,
+          "bottomRow": 1292,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -25,7 +25,91 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": []
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "CurrencyInput1",
+              "displayName": "Currency Input",
+              "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
+              "searchTags": [
+                "amount",
+                "total"
+              ],
+              "topRow": 27,
+              "bottomRow": 34,
+              "defaultCurrencyCode": "USD",
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "CURRENCY_INPUT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "resetOnSubmit": true,
+              "leftColumn": 16,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Top",
+              "labelStyle": "",
+              "isDisabled": false,
+              "key": "qpzusr7k6v",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 36,
+              "dynamicHeight": "FIXED",
+              "widgetId": "0q7jyx7gtg",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "Label",
+              "allowCurrencyChange": false,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "decimals": 0,
+              "iconAlign": "left",
+              "defaultText": "",
+              "minDynamicHeight": 4
+            },
+            {
+              "widgetName": "DocumentViewer1",
+              "isCanvas": false,
+              "displayName": "Document Viewer",
+              "iconSVG": "/static/media/icon.09fcd36be84f09ed7312b2ed6a307b27.svg",
+              "searchTags": [
+                "pdf"
+              ],
+              "topRow": 23,
+              "bottomRow": 63,
+              "parentRowSpace": 10,
+              "type": "DOCUMENT_VIEWER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 18.0625,
+              "leftColumn": 37,
+              "dynamicBindingPathList": [],
+              "key": "5qhrlf79gd",
+              "isDeprecated": false,
+              "rightColumn": 61,
+              "widgetId": "6nrtyefsl1",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "docUrl": "https://www.learningcontainer.com/wp-content/uploads/2019/09/sample-pdf-file.pdf"
+            }
+          ]
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
