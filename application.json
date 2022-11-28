@@ -11,10 +11,10 @@
   "color": "#F3F1C7",
   "icon": "calender",
   "unpublishedAppLayout": {
-    "type": "MOBILE"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
-    "type": "FLUID"
+    "type": "MOBILE"
   },
   "evaluationVersion": 2,
   "applicationVersion": 2,
